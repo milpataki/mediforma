@@ -66,12 +66,25 @@ function applyTranslations() {
 }
 
 // ── Language switcher ────────────────────────────────────────────────────────
+const LANG_META = {
+  en: { flag: '🇬🇧', code: 'EN' },
+  hu: { flag: '🇭🇺', code: 'HU' },
+};
+
 function syncLangSelector() {
-  const current = i18next.language; // already normalised to 'en' / 'hu'
-  document.querySelectorAll('.lang-btn').forEach(btn => {
-    const active = btn.dataset.lang === current;
-    btn.classList.toggle('active', active);
-    btn.setAttribute('aria-pressed', String(active));
+  const current = i18next.language;
+  const meta = LANG_META[current] ?? LANG_META.en;
+
+  const dropdown = document.getElementById('lang-dropdown');
+  if (!dropdown) return;
+
+  const flag = dropdown.querySelector('.lang-dropdown__flag');
+  const code = dropdown.querySelector('.lang-dropdown__code');
+  if (flag) flag.textContent = meta.flag;
+  if (code) code.textContent = meta.code;
+
+  dropdown.querySelectorAll('.lang-option').forEach(opt => {
+    opt.setAttribute('aria-selected', String(opt.dataset.lang === current));
   });
 }
 
@@ -83,8 +96,41 @@ async function changeLanguage(lang) {
   syncLangSelector();
 }
 
-// Wire up every language button in the document
+// ── Dropdown open / close ────────────────────────────────────────────────────
+function openDropdown() {
+  const dropdown = document.getElementById('lang-dropdown');
+  if (!dropdown) return;
+  dropdown.classList.add('open');
+  dropdown.querySelector('.lang-dropdown__toggle')?.setAttribute('aria-expanded', 'true');
+}
+
+function closeDropdown() {
+  const dropdown = document.getElementById('lang-dropdown');
+  if (!dropdown) return;
+  dropdown.classList.remove('open');
+  dropdown.querySelector('.lang-dropdown__toggle')?.setAttribute('aria-expanded', 'false');
+}
+
 document.addEventListener('click', e => {
-  const btn = e.target.closest('.lang-btn');
-  if (btn?.dataset.lang) changeLanguage(btn.dataset.lang);
+  if (e.target.closest('.lang-dropdown__toggle')) {
+    const isOpen = document.getElementById('lang-dropdown')?.classList.contains('open');
+    isOpen ? closeDropdown() : openDropdown();
+    return;
+  }
+
+  const option = e.target.closest('.lang-option');
+  if (option?.dataset.lang) {
+    changeLanguage(option.dataset.lang);
+    closeDropdown();
+    return;
+  }
+
+  // Click outside → close
+  if (!e.target.closest('#lang-dropdown')) {
+    closeDropdown();
+  }
+});
+
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape') closeDropdown();
 });

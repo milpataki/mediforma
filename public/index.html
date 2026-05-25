@@ -23,13 +23,25 @@
       </ul>
 
       <!-- Language selector -->
-      <div class="lang-selector" role="group" aria-label="Language">
-        <button class="lang-btn" data-lang="en" aria-pressed="false" title="English">
-          <span aria-hidden="true">🇬🇧</span> EN
+      <div class="lang-dropdown" id="lang-dropdown">
+        <button class="lang-dropdown__toggle"
+                aria-haspopup="listbox"
+                aria-expanded="false"
+                data-i18n-aria="nav.langLabel">
+          <span class="lang-dropdown__flag" aria-hidden="true">🇬🇧</span>
+          <span class="lang-dropdown__code">EN</span>
+          <svg class="lang-dropdown__chevron" width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden="true">
+            <path d="M2 4 L6 8 L10 4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
         </button>
-        <button class="lang-btn" data-lang="hu" aria-pressed="false" title="Magyar">
-          <span aria-hidden="true">🇭🇺</span> HU
-        </button>
+        <ul class="lang-dropdown__menu" role="listbox" aria-label="Language">
+          <li class="lang-option" role="option" data-lang="en" aria-selected="true">
+            <span aria-hidden="true">🇬🇧</span> English
+          </li>
+          <li class="lang-option" role="option" data-lang="hu" aria-selected="false">
+            <span aria-hidden="true">🇭🇺</span> Magyar
+          </li>
+        </ul>
       </div>
 
       <button class="nav__burger" id="burger" aria-label="Menu" aria-expanded="false">

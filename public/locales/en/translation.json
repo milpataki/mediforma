@@ -1,0 +1,166 @@
+{
+  "nav": {
+    "about": "About",
+    "products": "Products",
+    "whyUs": "Why Us",
+    "contact": "Contact",
+    "langLabel": "Language"
+  },
+  "hero": {
+    "eyebrow": "Precision. Reliability. Care.",
+    "title": "Advanced Medical<br>Equipment for<br>Modern Healthcare",
+    "subtitle": "Supplying certified diagnostic, surgical, and patient-monitoring systems to hospitals and clinics worldwide.",
+    "browseEquipment": "Browse Equipment",
+    "requestQuote": "Request Quote",
+    "scroll": "Scroll"
+  },
+  "stats": {
+    "unitsDelivered": "Units Delivered",
+    "countriesServed": "Countries Served",
+    "clientSatisfaction": "Client Satisfaction",
+    "technicalSupport": "Technical Support"
+  },
+  "about": {
+    "eyebrow": "Our Story",
+    "title": "Equipment That <em>Powers</em> Better Outcomes",
+    "p1": "Mediforma was founded with a single mission: give healthcare providers access to world-class diagnostic and therapeutic technology at competitive prices. We partner directly with leading manufacturers to eliminate unnecessary markups and ensure every device arrives fully certified and warranty-backed.",
+    "p2": "From a rural clinic's first ultrasound unit to a metropolitan hospital's full radiology suite, we tailor solutions to every scale of practice.",
+    "cta": "Partner with Us",
+    "badge": {
+      "established": "Est.",
+      "certified": "ISO 13485 Certified"
+    }
+  },
+  "products": {
+    "eyebrow": "Equipment Catalogue",
+    "title": "What We Supply",
+    "requestSpec": "Request Spec Sheet",
+    "card1": {
+      "title": "Diagnostic Imaging",
+      "desc": "MRI, CT, ultrasound, and X-ray systems from certified OEM partners — ready for immediate deployment.",
+      "f1": "1.5T & 3T MRI",
+      "f2": "Multi-slice CT",
+      "f3": "Portable Ultrasound"
+    },
+    "card2": {
+      "title": "Surgical Systems",
+      "desc": "Operating tables, laparoscopic towers, electrosurgical units, and sterilization equipment.",
+      "f1": "Laparoscopic Sets",
+      "f2": "ESU Generators",
+      "f3": "Surgical Lights"
+    },
+    "card3": {
+      "title": "Patient Monitoring",
+      "desc": "Bedside monitors, central station systems, telemetry units, and ICU-grade vital-signs platforms.",
+      "f1": "Multi-parameter Monitors",
+      "f2": "Central Monitoring",
+      "f3": "SpO2 & ECG"
+    },
+    "card4": {
+      "title": "Laboratory Equipment",
+      "desc": "Analyzers, centrifuges, microscopes, and point-of-care testing systems for clinical labs of every size.",
+      "f1": "Hematology Analyzers",
+      "f2": "PCR Systems",
+      "f3": "Biochemistry Analyzers"
+    },
+    "card5": {
+      "title": "Rehabilitation",
+      "desc": "Physiotherapy devices, TENS units, ultrasound therapy, and mobility-support equipment.",
+      "f1": "Electrotherapy Units",
+      "f2": "Ultrasound Therapy",
+      "f3": "Traction Systems"
+    },
+    "card6": {
+      "title": "Emergency & ICU",
+      "desc": "Ventilators, defibrillators, infusion pumps, and crash-cart equipment for critical-care environments.",
+      "f1": "ICU Ventilators",
+      "f2": "AED & Defibrillators",
+      "f3": "Infusion Pumps"
+    }
+  },
+  "quote": {
+    "text": "Mediforma delivered our radiology suite on time and on budget. The post-install support was exceptional.",
+    "author": "— Dr. Amara Osei, Chief Radiologist, Accra General Hospital"
+  },
+  "whyUs": {
+    "eyebrow": "Why Mediforma",
+    "title": "The Mediforma Difference",
+    "card1": {
+      "title": "OEM-Direct Pricing",
+      "desc": "We negotiate volume contracts directly with manufacturers, passing savings straight to you."
+    },
+    "card2": {
+      "title": "Regulatory Compliance",
+      "desc": "All devices carry CE, FDA, or local-market certifications. Our compliance team handles customs documentation."
+    },
+    "card3": {
+      "title": "White-Glove Installation",
+      "desc": "Certified biomedical engineers handle site preparation, installation, and staff training on-site."
+    },
+    "card4": {
+      "title": "Extended Warranty",
+      "desc": "Up to 5-year service contracts with guaranteed response times and genuine spare parts."
+    },
+    "card5": {
+      "title": "Flexible Financing",
+      "desc": "Operating lease, CAPEX purchase, and government tender frameworks — we structure the deal that fits your budget."
+    },
+    "card6": {
+      "title": "Global Logistics",
+      "desc": "Cold-chain aware freight, white-glove last-mile delivery, and 48-hour emergency parts shipping worldwide."
+    }
+  },
+  "partners": {
+    "eyebrow": "Trusted Partners"
+  },
+  "contact": {
+    "eyebrow": "Get in Touch",
+    "title": "Ready to Equip<br>Your Facility?",
+    "subtitle": "Send us your equipment list or describe your project. Our clinical sales specialists will respond within one business day.",
+    "emailLabel": "Email",
+    "phoneLabel": "Phone",
+    "hoursLabel": "Hours",
+    "hoursValue": "Mon – Fri, 08:00 – 18:00 UTC"
+  },
+  "form": {
+    "nameLbl": "Full Name",
+    "namePh": "Dr. Jane Smith",
+    "orgLbl": "Organisation",
+    "orgPh": "General Hospital",
+    "emailLbl": "Email Address",
+    "emailPh": "you@hospital.org",
+    "categoryLbl": "Equipment Interest",
+    "categoryPh": "Select category…",
+    "opt1": "Diagnostic Imaging",
+    "opt2": "Surgical Systems",
+    "opt3": "Patient Monitoring",
+    "opt4": "Laboratory Equipment",
+    "opt5": "Rehabilitation",
+    "opt6": "Emergency & ICU",
+    "opt7": "Other / Multiple Categories",
+    "messageLbl": "Message",
+    "messagePh": "Describe your requirements…",
+    "submit": "Send Enquiry",
+    "sending": "Sending…",
+    "success": "Thank you! We'll be in touch within one business day.",
+    "error": "Something went wrong. Please email sales@mediforma.com directly.",
+    "required": "Please fill in all required fields."
+  },
+  "footer": {
+    "tagline": "ISO 13485 certified medical equipment trade & distribution.",
+    "productTitle": "Products",
+    "productImaging": "Diagnostic Imaging",
+    "productSurgical": "Surgical Systems",
+    "productMonitoring": "Patient Monitoring",
+    "productLab": "Laboratory",
+    "companyTitle": "Company",
+    "companyAbout": "About Us",
+    "companyWhyUs": "Why Mediforma",
+    "companyContact": "Contact",
+    "legalTitle": "Legal",
+    "legalPrivacy": "Privacy Policy",
+    "legalTerms": "Terms of Sale",
+    "legalCompliance": "Compliance",
+    "copyright": "© 2026 Mediforma. All rights reserved."
+  }
+}

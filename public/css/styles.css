@@ -131,7 +131,7 @@ img { display: block; max-width: 100%; }
   gap: 2rem;
 }
 
-.nav__logo {
+.nav__logo {    
   font-size: 1.4rem;
   font-weight: 800;
   color: var(--c-white);
@@ -142,6 +142,7 @@ img { display: block; max-width: 100%; }
 }
 
 .nav__logo-mark {
+  padding-bottom: 8px;
   font-size: 1.8rem;
   line-height: 1;
   color: var(--c-teal);

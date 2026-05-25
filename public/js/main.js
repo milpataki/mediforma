@@ -100,12 +100,19 @@ burger?.addEventListener('click', () => {
   const open = navLinks.classList.toggle('open');
   burger.setAttribute('aria-expanded', open);
   document.body.style.overflow = open ? 'hidden' : '';
+  if (open) {
+    nav.classList.remove('scrolled');
+  } else {
+    nav.classList.toggle('scrolled', window.scrollY > 60);
+  }
 });
 
 navLinks?.querySelectorAll('a').forEach(link => {
   link.addEventListener('click', () => {
     navLinks.classList.remove('open');
+    burger.setAttribute('aria-expanded', false);
     document.body.style.overflow = '';
+    nav.classList.toggle('scrolled', window.scrollY > 60);
   });
 });
 

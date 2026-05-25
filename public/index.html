@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mediforma — Medical Equipment Solutions</title>
+  <link rel="stylesheet" href="/css/styles.css" />
+</head>
+<body>
+
+  <!-- ─── Navigation ─── -->
+  <nav class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="#" class="nav__logo">
+        <span class="nav__logo-mark">+</span> Mediforma
+      </a>
+      <ul class="nav__links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#why-us">Why Us</a></li>
+        <li><a href="#contact" class="nav__cta">Contact</a></li>
+      </ul>
+      <button class="nav__burger" id="burger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ─── Hero ─── -->
+  <section class="hero parallax-section" id="hero">
+    <div class="parallax-bg" data-speed="0.4" id="hero-bg"></div>
+    <div class="hero__content fade-in">
+      <p class="hero__eyebrow">Precision. Reliability. Care.</p>
+      <h1 class="hero__title">Advanced Medical<br />Equipment for<br />Modern Healthcare</h1>
+      <p class="hero__sub">Supplying certified diagnostic, surgical, and patient-monitoring systems to hospitals and clinics worldwide.</p>
+      <div class="hero__actions">
+        <a href="#products" class="btn btn--primary">Browse Equipment</a>
+        <a href="#contact" class="btn btn--ghost">Request Quote</a>
+      </div>
+    </div>
+    <div class="hero__scroll-hint">
+      <span>Scroll</span>
+      <div class="hero__scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ─── Stats Band ─── -->
+  <section class="stats-band">
+    <div class="stats-band__inner">
+      <div class="stat">
+        <span class="stat__number" data-target="2400">0</span><span class="stat__unit">+</span>
+        <p class="stat__label">Units Delivered</p>
+      </div>
+      <div class="stat">
+        <span class="stat__number" data-target="38">0</span><span class="stat__unit"></span>
+        <p class="stat__label">Countries Served</p>
+      </div>
+      <div class="stat">
+        <span class="stat__number" data-target="99">0</span><span class="stat__unit">%</span>
+        <p class="stat__label">Client Satisfaction</p>
+      </div>
+      <div class="stat">
+        <span class="stat__number" data-target="24">0</span><span class="stat__unit">/7</span>
+        <p class="stat__label">Technical Support</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── About ─── -->
+  <section class="about section" id="about">
+    <div class="about__parallax parallax-section">
+      <div class="parallax-bg" data-speed="0.3" id="about-bg"></div>
+    </div>
+    <div class="container about__content reveal">
+      <div class="about__text">
+        <p class="section-eyebrow">Our Story</p>
+        <h2 class="section-title">Equipment That <em>Powers</em> Better Outcomes</h2>
+        <p>Mediforma was founded with a single mission: give healthcare providers access to world-class diagnostic and therapeutic technology at competitive prices. We partner directly with leading manufacturers to eliminate unnecessary markups and ensure every device arrives fully certified and warranty-backed.</p>
+        <p>From a rural clinic's first ultrasound unit to a metropolitan hospital's full radiology suite, we tailor solutions to every scale of practice.</p>
+        <a href="#contact" class="btn btn--primary">Partner with Us</a>
+      </div>
+      <div class="about__visual">
+        <div class="about__badge">
+          <span class="about__badge-year">Est.</span>
+          <strong>2009</strong>
+          <span>ISO 13485 Certified</span>
+        </div>
+        <div class="about__illustration">
+          <div class="device-card device-card--lg">
+            <div class="device-icon">&#x2665;</div>
+            <div class="pulse-ring"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── Products ─── -->
+  <section class="products section" id="products">
+    <div class="container">
+      <p class="section-eyebrow reveal">Equipment Catalogue</p>
+      <h2 class="section-title reveal">What We Supply</h2>
+      <div class="products__grid">
+
+        <article class="product-card reveal" style="--delay:0s">
+          <div class="product-card__icon">
+            <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="32" cy="32" r="20" stroke="currentColor" stroke-width="3"/>
+              <path d="M32 12 A20 20 0 0 1 52 32" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+              <circle cx="32" cy="32" r="6" fill="currentColor" opacity="0.3"/>
+            </svg>
+          </div>
+          <h3>Diagnostic Imaging</h3>
+          <p>MRI, CT, ultrasound, and X-ray systems from certified OEM partners — ready for immediate deployment.</p>
+          <ul class="product-card__features">
+            <li>1.5T &amp; 3T MRI</li>
+            <li>Multi-slice CT</li>
+            <li>Portable Ultrasound</li>
+          </ul>
+          <a href="#contact" class="product-card__link">Request Spec Sheet &rarr;</a>
+        </article>
+
+        <article class="product-card reveal" style="--delay:0.1s">
+          <div class="product-card__icon">
+            <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="12" y="20" width="40" height="28" rx="3" stroke="currentColor" stroke-width="3"/>
+              <path d="M22 20V16a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v4" stroke="currentColor" stroke-width="3"/>
+              <path d="M32 30 v8 M28 34 h8" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3>Surgical Systems</h3>
+          <p>Operating tables, laparoscopic towers, electrosurgical units, and sterilization equipment.</p>
+          <ul class="product-card__features">
+            <li>Laparoscopic Sets</li>
+            <li>ESU Generators</li>
+            <li>Surgical Lights</li>
+          </ul>
+          <a href="#contact" class="product-card__link">Request Spec Sheet &rarr;</a>
+        </article>
+
+        <article class="product-card reveal" style="--delay:0.2s">
+          <div class="product-card__icon">
+            <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M8 40 Q16 20 24 32 Q32 44 40 28 Q48 12 56 32" stroke="currentColor" stroke-width="3" stroke-linecap="round" fill="none"/>
+              <rect x="4" y="42" width="56" height="4" rx="2" fill="currentColor" opacity="0.2"/>
+            </svg>
+          </div>
+          <h3>Patient Monitoring</h3>
+          <p>Bedside monitors, central station systems, telemetry units, and ICU-grade vital-signs platforms.</p>
+          <ul class="product-card__features">
+            <li>Multi-parameter Monitors</li>
+            <li>Central Monitoring</li>
+            <li>SpO2 &amp; ECG</li>
+          </ul>
+          <a href="#contact" class="product-card__link">Request Spec Sheet &rarr;</a>
+        </article>
+
+        <article class="product-card reveal" style="--delay:0.3s">
+          <div class="product-card__icon">
+            <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M20 48 L20 24 a12 12 0 1 1 24 0 L44 48" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+              <line x1="14" y1="48" x2="50" y2="48" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+              <circle cx="32" cy="24" r="4" fill="currentColor" opacity="0.3"/>
+            </svg>
+          </div>
+          <h3>Laboratory Equipment</h3>
+          <p>Analyzers, centrifuges, microscopes, and point-of-care testing systems for clinical labs of every size.</p>
+          <ul class="product-card__features">
+            <li>Hematology Analyzers</li>
+            <li>PCR Systems</li>
+            <li>Biochemistry Analyzers</li>
+          </ul>
+          <a href="#contact" class="product-card__link">Request Spec Sheet &rarr;</a>
+        </article>
+
+        <article class="product-card reveal" style="--delay:0.4s">
+          <div class="product-card__icon">
+            <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="16" y="8" width="32" height="48" rx="4" stroke="currentColor" stroke-width="3"/>
+              <path d="M24 22 h16 M24 30 h16 M24 38 h10" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3>Rehabilitation</h3>
+          <p>Physiotherapy devices, TENS units, ultrasound therapy, and mobility-support equipment.</p>
+          <ul class="product-card__features">
+            <li>Electrotherapy Units</li>
+            <li>Ultrasound Therapy</li>
+            <li>Traction Systems</li>
+          </ul>
+          <a href="#contact" class="product-card__link">Request Spec Sheet &rarr;</a>
+        </article>
+
+        <article class="product-card reveal" style="--delay:0.5s">
+          <div class="product-card__icon">
+            <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M32 8 L56 20 L56 44 L32 56 L8 44 L8 20 Z" stroke="currentColor" stroke-width="3"/>
+              <circle cx="32" cy="32" r="10" stroke="currentColor" stroke-width="2.5"/>
+              <path d="M32 24 v16 M24 32 h16" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3>Emergency &amp; ICU</h3>
+          <p>Ventilators, defibrillators, infusion pumps, and crash-cart equipment for critical-care environments.</p>
+          <ul class="product-card__features">
+            <li>ICU Ventilators</li>
+            <li>AED &amp; Defibrillators</li>
+            <li>Infusion Pumps</li>
+          </ul>
+          <a href="#contact" class="product-card__link">Request Spec Sheet &rarr;</a>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── Parallax Quote ─── -->
+  <section class="quote-section parallax-section">
+    <div class="parallax-bg" data-speed="0.45" id="quote-bg"></div>
+    <blockquote class="quote fade-in">
+      <p>"Mediforma delivered our radiology suite on time and on budget. The post-install support was exceptional."</p>
+      <footer>— Dr. Amara Osei, Chief Radiologist, Accra General Hospital</footer>
+    </blockquote>
+  </section>
+
+  <!-- ─── Why Us ─── -->
+  <section class="why-us section" id="why-us">
+    <div class="container">
+      <p class="section-eyebrow reveal">Why Mediforma</p>
+      <h2 class="section-title reveal">The Mediforma Difference</h2>
+      <div class="why-us__grid">
+        <div class="why-card reveal" style="--delay:0s">
+          <div class="why-card__num">01</div>
+          <h3>OEM-Direct Pricing</h3>
+          <p>We negotiate volume contracts directly with manufacturers, passing savings straight to you.</p>
+        </div>
+        <div class="why-card reveal" style="--delay:0.1s">
+          <div class="why-card__num">02</div>
+          <h3>Regulatory Compliance</h3>
+          <p>All devices carry CE, FDA, or local-market certifications. Our compliance team handles customs documentation.</p>
+        </div>
+        <div class="why-card reveal" style="--delay:0.2s">
+          <div class="why-card__num">03</div>
+          <h3>White-Glove Installation</h3>
+          <p>Certified biomedical engineers handle site preparation, installation, and staff training on-site.</p>
+        </div>
+        <div class="why-card reveal" style="--delay:0.3s">
+          <div class="why-card__num">04</div>
+          <h3>Extended Warranty</h3>
+          <p>Up to 5-year service contracts with guaranteed response times and genuine spare parts.</p>
+        </div>
+        <div class="why-card reveal" style="--delay:0.4s">
+          <div class="why-card__num">05</div>
+          <h3>Flexible Financing</h3>
+          <p>Operating lease, CAPEX purchase, and government tender frameworks — we structure the deal that fits your budget.</p>
+        </div>
+        <div class="why-card reveal" style="--delay:0.5s">
+          <div class="why-card__num">06</div>
+          <h3>Global Logistics</h3>
+          <p>Cold-chain aware freight, white-glove last-mile delivery, and 48-hour emergency parts shipping worldwide.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── Partners Band ─── -->
+  <section class="partners section">
+    <div class="container">
+      <p class="section-eyebrow reveal" style="text-align:center">Trusted Partners</p>
+      <div class="partners__logos reveal">
+        <span class="partner-logo">Siemens Healthineers</span>
+        <span class="partner-logo">Philips Medical</span>
+        <span class="partner-logo">GE HealthCare</span>
+        <span class="partner-logo">Mindray</span>
+        <span class="partner-logo">Draeger</span>
+        <span class="partner-logo">Nihon Kohden</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── Contact ─── -->
+  <section class="contact section parallax-section" id="contact">
+    <div class="parallax-bg" data-speed="0.3" id="contact-bg"></div>
+    <div class="container contact__inner reveal">
+      <div class="contact__text">
+        <p class="section-eyebrow">Get in Touch</p>
+        <h2 class="section-title">Ready to Equip<br />Your Facility?</h2>
+        <p>Send us your equipment list or describe your project. Our clinical sales specialists will respond within one business day.</p>
+        <div class="contact__details">
+          <div class="contact__detail">
+            <strong>Email</strong>
+            <span>sales@mediforma.com</span>
+          </div>
+          <div class="contact__detail">
+            <strong>Phone</strong>
+            <span>+1 (800) 633-4672</span>
+          </div>
+          <div class="contact__detail">
+            <strong>Hours</strong>
+            <span>Mon – Fri, 08:00 – 18:00 UTC</span>
+          </div>
+        </div>
+      </div>
+      <form class="contact__form" id="contact-form" novalidate>
+        <div class="form-row">
+          <label class="form-group">
+            <span>Full Name</span>
+            <input type="text" name="name" placeholder="Dr. Jane Smith" required />
+          </label>
+          <label class="form-group">
+            <span>Organisation</span>
+            <input type="text" name="org" placeholder="General Hospital" required />
+          </label>
+        </div>
+        <label class="form-group">
+          <span>Email Address</span>
+          <input type="email" name="email" placeholder="you@hospital.org" required />
+        </label>
+        <label class="form-group">
+          <span>Equipment Interest</span>
+          <select name="category">
+            <option value="">Select category…</option>
+            <option>Diagnostic Imaging</option>
+            <option>Surgical Systems</option>
+            <option>Patient Monitoring</option>
+            <option>Laboratory Equipment</option>
+            <option>Rehabilitation</option>
+            <option>Emergency &amp; ICU</option>
+            <option>Other / Multiple Categories</option>
+          </select>
+        </label>
+        <label class="form-group">
+          <span>Message</span>
+          <textarea name="message" rows="4" placeholder="Describe your requirements…"></textarea>
+        </label>
+        <button type="submit" class="btn btn--primary btn--full">Send Enquiry</button>
+        <p class="form-note" id="form-status"></p>
+      </form>
+    </div>
+  </section>
+
+  <!-- ─── Footer ─── -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <span class="nav__logo-mark">+</span> Mediforma
+        <p>ISO 13485 certified medical equipment trade &amp; distribution.</p>
+      </div>
+      <div class="footer__col">
+        <strong>Products</strong>
+        <a href="#products">Diagnostic Imaging</a>
+        <a href="#products">Surgical Systems</a>
+        <a href="#products">Patient Monitoring</a>
+        <a href="#products">Laboratory</a>
+      </div>
+      <div class="footer__col">
+        <strong>Company</strong>
+        <a href="#about">About Us</a>
+        <a href="#why-us">Why Mediforma</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="footer__col">
+        <strong>Legal</strong>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Sale</a>
+        <a href="#">Compliance</a>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p>&copy; 2026 Mediforma. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="/js/main.js"></script>
+</body>
+</html>

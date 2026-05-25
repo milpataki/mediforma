@@ -1,0 +1,36 @@
+version: '3.9'
+
+services:
+  app:
+    build:
+      context: .
+      target: dev            # uses the "dev" stage from Dockerfile
+    container_name: mediforma-dev
+    restart: unless-stopped
+    ports:
+      - '${PORT:-3000}:3000'
+    env_file:
+      - .env
+    environment:
+      NODE_ENV: development
+    volumes:
+      - .:/app               # live-reload: host code → container
+      - /app/node_modules    # keep container's node_modules intact
+    command: npm run dev
+
+  # ── Uncomment to add PostgreSQL ──────────────────────────────────────
+  # db:
+  #   image: postgres:16-alpine
+  #   container_name: mediforma-db
+  #   restart: unless-stopped
+  #   environment:
+  #     POSTGRES_USER: ${DB_USER:-postgres}
+  #     POSTGRES_PASSWORD: ${DB_PASSWORD:-postgres}
+  #     POSTGRES_DB: ${DB_NAME:-mediforma}
+  #   ports:
+  #     - '5432:5432'
+  #   volumes:
+  #     - pgdata:/var/lib/postgresql/data
+
+# volumes:
+#   pgdata:

@@ -9,7 +9,7 @@
   "hero": {
     "eyebrow": "Pontosság. Megbízhatóság. Gondoskodás.",
     "title": "Fejlett orvostechnikai<br>eszközök a korszerű<br>egészségügyért",
-    "subtitle": "Tanúsított diagnosztikai, sebészeti és betegmonitorozó rendszerek szállítása kórházaknak és klinikáknak világszerte.",
+    "subtitle": "Prémium minőségű rozsdamentes acél orvosi bútorok szállítása kórházaknak, klinikáknak és laboratóriumoknak világszerte.",
     "browseEquipment": "Eszközök böngészése",
     "requestQuote": "Árajánlat kérése",
     "scroll": "Görgessen"
@@ -23,8 +23,8 @@
   "about": {
     "eyebrow": "Történetünk",
     "title": "Eszközök, amelyek <em>jobb</em> eredményeket hoznak",
-    "p1": "A Mediformát egyetlen misszióval alapítottuk: világszínvonalú diagnosztikai és terápiás technológiához biztosítunk hozzáférést az egészségügyi szolgáltatók számára versenyképes áron. Közvetlenül vezető gyártókkal működünk együtt, hogy kiküszöböljük a felesleges felárakat, és minden eszköz teljesen tanúsítottan és garanciával érkezzen meg.",
-    "p2": "Egy vidéki klinika első ultrahang-készülékétől egy nagyvárosi kórház teljes radiológiai suitéjéig – minden méretű intézményre szabott megoldásokat kínálunk.",
+    "p1": "A Mediformát egyetlen misszióval alapítottuk: tartós, higiénikus, a legmagasabb klinikai szabványoknak megfelelő rozsdamentes acél bútorokat biztosítunk az egészségügyi intézmények számára. Minden általunk szállított szekrény, kocsi és kiegészítő sebészeti minőségű acélból készül, amely ellenáll a korróziónak, a baktériumoknak és a napi sterilizálás igénybevételének.",
+    "p2": "Egy háziorvosnál felállított egyetlen műszerkocsiból egy teljesen felszerelt műtői suitéig – minden méretű intézményre szabott megoldásokat szállítunk.",
     "cta": "Legyen partnerünk",
     "badge": {
       "established": "Alapítva",
@@ -36,87 +36,66 @@
     "title": "Kínálatunk",
     "requestSpec": "Műszaki lap igénylése",
     "card1": {
-      "title": "Diagnosztikai képalkotás",
-      "desc": "MRI, CT, ultrahang és röntgen rendszerek tanúsított OEM partnerektől — azonnali telepítésre kész.",
-      "f1": "1,5T és 3T MRI",
-      "f2": "Többszeletes CT",
-      "f3": "Hordozható ultrahang"
+      "title": "Szekrények és fiókok",
+      "desc": "Sebészeti minőségű rozsdamentes acél szekrények és fiókos egységek rendezett, higiénikus klinikai tároláshoz.",
+      "f1": "Falra szerelhető szekrények",
+      "f2": "Többfiókos egységek",
+      "f3": "Egyedi konfigurációk"
     },
     "card2": {
-      "title": "Sebészeti rendszerek",
-      "desc": "Műtőasztalok, laparoszkópos tornyok, elektrosebészeti egységek és sterilizálóberendezések.",
-      "f1": "Laparoszkópos szettek",
-      "f2": "Elektrosebészeti generátorok",
-      "f3": "Műtőlámpák"
+      "title": "Kocsik és tartozékok",
+      "desc": "Mozgó rozsdamentes acél kocsik fiókokkal, valamint tálcák, tárolódobozok és fogantyúk.",
+      "f1": "Többfiókos kocsik",
+      "f2": "Tálcák, dobozok és tárolók",
+      "f3": "Cserélhető fogantyúk"
     },
     "card3": {
-      "title": "Betegmegfigyelés",
-      "desc": "Ágymelletti monitorok, centrális állomásrendszerek, telemetriás egységek és intenzív osztályos vitálparaméter-platformok.",
-      "f1": "Multiparaméteres monitorok",
-      "f2": "Centrális monitorozás",
-      "f3": "SpO2 és EKG"
-    },
-    "card4": {
-      "title": "Laboreszközök",
-      "desc": "Analizátorok, centrifugák, mikroszkópok és point-of-care tesztelési rendszerek minden méretű klinikai labornak.",
-      "f1": "Hematológiai analizátorok",
-      "f2": "PCR rendszerek",
-      "f3": "Klinikai kémiai analizátorok"
-    },
-    "card5": {
-      "title": "Rehabilitáció",
-      "desc": "Fizikoterápiás eszközök, TENS egységek, ultrahangos terápia és mozgástámogató berendezések.",
-      "f1": "Elektroterápiás egységek",
-      "f2": "Ultrahangos terápia",
-      "f3": "Trakciós rendszerek"
-    },
-    "card6": {
-      "title": "Sürgősségi ellátás és intenzív osztály",
-      "desc": "Lélegeztetőgépek, defibrillátorok, infúziós pumpák és újraélesztési eszközök kritikus ellátási környezetekbe.",
-      "f1": "Intenzív osztályos lélegeztetőgépek",
-      "f2": "AED és defibrillátorok",
-      "f3": "Infúziós pumpák"
+      "title": "Kiegészítők",
+      "desc": "Tálaló állványok, gurulós műszerkocsi-asztalok, gurulós forgószékek és zsámolyok klinikai környezetekbe.",
+      "f1": "Tálaló állványok",
+      "f2": "Gurulós műszerasztalok",
+      "f3": "Forgószékek és zsámolyok"
     }
   },
   "quote": {
-    "text": "A Mediforma határidőre és a büdzsén belül szállította a radiológiai suitét. A telepítés utáni támogatás kivételes volt.",
-    "author": "— Dr. Amara Osei, főradiológus, Accra General Hospital"
+    "text": "A Mediforma rozsdamentes acél kocsijai és szekrényei tartósságra épültek. Napi sterilizálás után két évvel is gyári állapotban vannak.",
+    "author": "— Főnővér, St. Vincent's Egyetemi Kórház"
   },
   "whyUs": {
     "eyebrow": "Miért a Mediforma?",
     "title": "A Mediforma különlegessége",
     "card1": {
-      "title": "Közvetlen gyártói árak",
-      "desc": "Kedvező szerződéseket kötünk közvetlenül a gyártókkal, a megtakarításokat egyenesen Önnek adjuk tovább."
+      "title": "Sebészeti minőségű acél",
+      "desc": "Minden termékünk AISI 304 vagy 316 rozsdamentes acélból készül – korrózióálló, autoklávbiztos és évtizedekre tervezett."
     },
     "card2": {
       "title": "Szabályozási megfelelőség",
-      "desc": "Minden eszköz CE, FDA vagy helyi piaci tanúsítvánnyal rendelkezik. Compliance csapatunk kezeli a vámügyi dokumentációt."
+      "desc": "Minden termékünk CE jelöléssel rendelkezik, és megfelel az EN 1041 és ISO 13485 követelményeknek. Csapatunk kezeli az importdokumentációt."
     },
     "card3": {
-      "title": "Teljes körű telepítés",
-      "desc": "Tanúsított biomérnökeink végzik a helyszín-előkészítést, a telepítést és a személyzet helyszíni oktatását."
+      "title": "Egyedi konfigurációk",
+      "desc": "Tanúsított mérnökeink a szekrényeket, kocsikat és kiegészítőket az Ön klinikai elrendezéséhez és munkafolyamatához igazítják."
     },
     "card4": {
       "title": "Kiterjesztett garancia",
       "desc": "Akár 5 éves szervizszerződések garantált válaszidőkkel és eredeti alkatrészekkel."
     },
     "card5": {
-      "title": "Rugalmas finanszírozás",
-      "desc": "Operatív lízing, CAPEX-vásárlás és közbeszerzési keretszerződések – az Önnek megfelelő megállapodást alakítjuk ki."
+      "title": "Rugalmas rendelés",
+      "desc": "Egyedi mintadaraboktól a teljes berendezési projektig – minden rendelési méretet és költségvetést kiszolgálunk."
     },
     "card6": {
       "title": "Globális logisztika",
-      "desc": "Hidegláncot szem előtt tartó szállítás, gondos utolsó mérföldes kiszállítás és 48 órán belüli sürgős alkatrész-szállítás világszerte."
+      "desc": "Gondos kiszállítás, körültekintő utolsó mérföldes szállítmányozás és 48 órán belüli sürgős alkatrész-szállítás világszerte."
     }
   },
   "partners": {
-    "eyebrow": "Megbízható partnereink"
+    "eyebrow": "Szabványok és tanúsítványok"
   },
   "contact": {
     "eyebrow": "Lépjen kapcsolatba velünk",
     "title": "Kész felszerelni<br>az intézményét?",
-    "subtitle": "Küldje el eszközlistáját vagy írja le projektjét. Klinikai értékesítési szakembereink egy munkanapon belül válaszolnak.",
+    "subtitle": "Küldje el igényeit vagy írja le projektjét. Szakembereink egy munkanapon belül válaszolnak.",
     "emailLabel": "E-mail",
     "phoneLabel": "Telefon",
     "hoursLabel": "Munkaidő",
@@ -129,15 +108,12 @@
     "orgPh": "Általános Kórház",
     "emailLbl": "E-mail cím",
     "emailPh": "on@korhaz.hu",
-    "categoryLbl": "Eszköz érdeklődés",
+    "categoryLbl": "Termék érdeklődés",
     "categoryPh": "Válasszon kategóriát…",
-    "opt1": "Diagnosztikai képalkotás",
-    "opt2": "Sebészeti rendszerek",
-    "opt3": "Betegmegfigyelés",
-    "opt4": "Laboreszközök",
-    "opt5": "Rehabilitáció",
-    "opt6": "Sürgősségi ellátás és intenzív osztály",
-    "opt7": "Egyéb / Több kategória",
+    "opt1": "Szekrények és fiókok",
+    "opt2": "Kocsik és tartozékok",
+    "opt3": "Kiegészítők",
+    "opt4": "Egyéb / Több kategória",
     "messageLbl": "Üzenet",
     "messagePh": "Írja le igényeit…",
     "submit": "Érdeklődés küldése",
@@ -147,12 +123,11 @@
     "required": "Kérjük, töltse ki az összes kötelező mezőt."
   },
   "footer": {
-    "tagline": "ISO 13485 tanúsított orvostechnikai eszközök kereskedelme és forgalmazása.",
+    "tagline": "ISO 13485 tanúsított rozsdamentes acél orvosi bútorok – kereskedelem és forgalmazás.",
     "productTitle": "Termékek",
-    "productImaging": "Diagnosztikai képalkotás",
-    "productSurgical": "Sebészeti rendszerek",
-    "productMonitoring": "Betegmegfigyelés",
-    "productLab": "Laboratórium",
+    "productCabinets": "Szekrények és fiókok",
+    "productTrolleys": "Kocsik és tartozékok",
+    "productAccessories": "Kiegészítők",
     "companyTitle": "Cég",
     "companyAbout": "Rólunk",
     "companyWhyUs": "Miért a Mediforma",

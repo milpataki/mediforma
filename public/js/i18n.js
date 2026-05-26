@@ -67,8 +67,8 @@ function applyTranslations() {
 
 // ── Language switcher ────────────────────────────────────────────────────────
 const LANG_META = {
-  en: { flag: '🇬🇧', code: 'EN' },
-  hu: { flag: '🇭🇺', code: 'HU' },
+  en: { flag: 'gb', code: 'EN' },
+  hu: { flag: 'hu', code: 'HU' },
 };
 
 function syncLangSelector() {
@@ -80,7 +80,7 @@ function syncLangSelector() {
 
   const flag = dropdown.querySelector('.lang-dropdown__flag');
   const code = dropdown.querySelector('.lang-dropdown__code');
-  if (flag) flag.textContent = meta.flag;
+  if (flag) flag.className = `lang-dropdown__flag fi fi-${meta.flag}`;
   if (code) code.textContent = meta.code;
 
   dropdown.querySelectorAll('.lang-option').forEach(opt => {

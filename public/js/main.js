@@ -100,12 +100,19 @@ burger?.addEventListener('click', () => {
   const open = navLinks.classList.toggle('open');
   burger.setAttribute('aria-expanded', open);
   document.body.style.overflow = open ? 'hidden' : '';
+  if (open) {
+    nav.classList.remove('scrolled');
+  } else {
+    nav.classList.toggle('scrolled', window.scrollY > 60);
+  }
 });
 
 navLinks?.querySelectorAll('a').forEach(link => {
   link.addEventListener('click', () => {
     navLinks.classList.remove('open');
+    burger.setAttribute('aria-expanded', false);
     document.body.style.overflow = '';
+    nav.classList.toggle('scrolled', window.scrollY > 60);
   });
 });
 
@@ -116,15 +123,16 @@ const status = document.getElementById('form-status');
 form?.addEventListener('submit', async (e) => {
   e.preventDefault();
 
+  const t = key => (typeof i18next !== 'undefined' ? i18next.t(key) : key);
   const data = Object.fromEntries(new FormData(form));
   if (!data.name || !data.email) {
-    showStatus('Please fill in all required fields.', 'error');
+    showStatus(t('form.required'), 'error');
     return;
   }
 
   const submitBtn = form.querySelector('[type="submit"]');
   submitBtn.disabled = true;
-  submitBtn.textContent = 'Sending…';
+  submitBtn.textContent = t('form.sending');
 
   try {
     const res = await fetch('/api/enquiry', {
@@ -134,16 +142,16 @@ form?.addEventListener('submit', async (e) => {
     });
 
     if (res.ok) {
-      showStatus('Thank you! We\'ll be in touch within one business day.', 'success');
+      showStatus(t('form.success'), 'success');
       form.reset();
     } else {
       throw new Error(`HTTP ${res.status}`);
     }
   } catch {
-    showStatus('Something went wrong. Please email sales@mediforma.com directly.', 'error');
+    showStatus(t('form.error'), 'error');
   } finally {
     submitBtn.disabled = false;
-    submitBtn.textContent = 'Send Enquiry';
+    submitBtn.textContent = t('form.submit');
   }
 });
 

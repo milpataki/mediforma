@@ -9,7 +9,7 @@
   "hero": {
     "eyebrow": "Precision. Reliability. Care.",
     "title": "Advanced Medical<br>Equipment for<br>Modern Healthcare",
-    "subtitle": "Supplying certified diagnostic, surgical, and patient-monitoring systems to hospitals and clinics worldwide.",
+    "subtitle": "Supplying premium stainless steel medical furniture to hospitals, clinics, and laboratories worldwide.",
     "browseEquipment": "Browse Equipment",
     "requestQuote": "Request Quote",
     "scroll": "Scroll"
@@ -23,8 +23,8 @@
   "about": {
     "eyebrow": "Our Story",
     "title": "Equipment That <em>Powers</em> Better Outcomes",
-    "p1": "Mediforma was founded with a single mission: give healthcare providers access to world-class diagnostic and therapeutic technology at competitive prices. We partner directly with leading manufacturers to eliminate unnecessary markups and ensure every device arrives fully certified and warranty-backed.",
-    "p2": "From a rural clinic's first ultrasound unit to a metropolitan hospital's full radiology suite, we tailor solutions to every scale of practice.",
+    "p1": "MediForma was founded with a single mission: equip healthcare environments with durable, hygienic stainless steel furniture built to the highest clinical standards. Every cabinet, trolley, and accessory we supply is manufactured from surgical-grade steel and finished to resist corrosion, bacteria, and the rigours of daily sterilisation.",
+    "p2": "From a single instrument table for a GP practice to a fully outfitted surgical suite, we configure and deliver solutions to every scale of facility.",
     "cta": "Partner with Us",
     "badge": {
       "established": "Est.",
@@ -32,91 +32,70 @@
     }
   },
   "products": {
-    "eyebrow": "Equipment Catalogue",
+    "eyebrow": "Product Catalogue",
     "title": "What We Supply",
     "requestSpec": "Request Spec Sheet",
     "card1": {
-      "title": "Diagnostic Imaging",
-      "desc": "MRI, CT, ultrasound, and X-ray systems from certified OEM partners — ready for immediate deployment.",
-      "f1": "1.5T & 3T MRI",
-      "f2": "Multi-slice CT",
-      "f3": "Portable Ultrasound"
+      "title": "Cabinets & Drawers",
+      "desc": "Surgical-grade stainless steel cabinets and drawer units for organised, hygienic clinical storage.",
+      "f1": "Wall-mounted cabinets",
+      "f2": "Multi-drawer units",
+      "f3": "Custom configurations"
     },
     "card2": {
-      "title": "Surgical Systems",
-      "desc": "Operating tables, laparoscopic towers, electrosurgical units, and sterilization equipment.",
-      "f1": "Laparoscopic Sets",
-      "f2": "ESU Generators",
-      "f3": "Surgical Lights"
+      "title": "Trolleys & Accessories",
+      "desc": "Mobile stainless steel trolleys with drawers, plus matching trays, storage bins, and handles.",
+      "f1": "Multi-drawer trolleys",
+      "f2": "Trays, bins & storage items",
+      "f3": "Interchangeable handles"
     },
     "card3": {
-      "title": "Patient Monitoring",
-      "desc": "Bedside monitors, central station systems, telemetry units, and ICU-grade vital-signs platforms.",
-      "f1": "Multi-parameter Monitors",
-      "f2": "Central Monitoring",
-      "f3": "SpO2 & ECG"
-    },
-    "card4": {
-      "title": "Laboratory Equipment",
-      "desc": "Analyzers, centrifuges, microscopes, and point-of-care testing systems for clinical labs of every size.",
-      "f1": "Hematology Analyzers",
-      "f2": "PCR Systems",
-      "f3": "Biochemistry Analyzers"
-    },
-    "card5": {
-      "title": "Rehabilitation",
-      "desc": "Physiotherapy devices, TENS units, ultrasound therapy, and mobility-support equipment.",
-      "f1": "Electrotherapy Units",
-      "f2": "Ultrasound Therapy",
-      "f3": "Traction Systems"
-    },
-    "card6": {
-      "title": "Emergency & ICU",
-      "desc": "Ventilators, defibrillators, infusion pumps, and crash-cart equipment for critical-care environments.",
-      "f1": "ICU Ventilators",
-      "f2": "AED & Defibrillators",
-      "f3": "Infusion Pumps"
+      "title": "Accessories",
+      "desc": "Bowl stands, rolling instrument tables, rolling swivel chairs, and stools for clinical environments.",
+      "f1": "Bowl stands",
+      "f2": "Rolling instrument tables",
+      "f3": "Swivel chairs & stools"
     }
   },
   "quote": {
-    "text": "Mediforma delivered our radiology suite on time and on budget. The post-install support was exceptional.",
-    "author": "— Dr. Amara Osei, Chief Radiologist, Accra General Hospital"
+    "text": "The stainless steel trolleys and cabinets from MediForma are built to last. Two years of daily sterilisation and they still look brand new.",
+    "author": "— Head Theatre Nurse, St. Vincent's University Hospital"
   },
   "whyUs": {
-    "eyebrow": "Why Mediforma",
-    "title": "The Mediforma Difference",
+    "eyebrow": "Why MediForma",
+    "title": "The MediForma Difference",
     "card1": {
-      "title": "OEM-Direct Pricing",
-      "desc": "We negotiate volume contracts directly with manufacturers, passing savings straight to you."
+      "title": "Surgical-Grade Steel",
+      "desc": "Every product is manufactured from AISI 304 or 316 stainless steel — corrosion-resistant, autoclave-safe, and built to last decades."
     },
     "card2": {
       "title": "Regulatory Compliance",
-      "desc": "All devices carry CE, FDA, or local-market certifications. Our compliance team handles customs documentation."
+      "desc": "All products carry CE marking and meet EN 1041 and ISO 13485 requirements. Our team handles import documentation."
     },
     "card3": {
-      "title": "White-Glove Installation",
-      "desc": "Certified biomedical engineers handle site preparation, installation, and staff training on-site."
+      "title": "Custom Configurations",
+      "desc": "Certified engineers configure cabinets, trolleys, and accessories to your exact clinical layout and workflow."
     },
     "card4": {
       "title": "Extended Warranty",
-      "desc": "Up to 5-year service contracts with guaranteed response times and genuine spare parts."
+      "desc": "Up to 5-year service contracts with guaranteed response times and genuine replacement parts."
     },
     "card5": {
-      "title": "Flexible Financing",
-      "desc": "Operating lease, CAPEX purchase, and government tender frameworks — we structure the deal that fits your budget."
+      "title": "Flexible Ordering",
+      "desc": "Single-unit samples through to full-suite procurement — we accommodate every order size and budget."
     },
     "card6": {
       "title": "Global Logistics",
-      "desc": "Cold-chain aware freight, white-glove last-mile delivery, and 48-hour emergency parts shipping worldwide."
+      "desc": "White-glove delivery, careful last-mile handling, and 48-hour emergency parts shipping worldwide."
     }
   },
   "partners": {
-    "eyebrow": "Trusted Partners"
+    "eyebrow": "Standards & Certifications"
   },
   "contact": {
     "eyebrow": "Get in Touch",
     "title": "Ready to Equip<br>Your Facility?",
-    "subtitle": "Send us your equipment list or describe your project. Our clinical sales specialists will respond within one business day.",
+    "subtitle": "Send us your requirements or describe your project. Our specialists will respond within one business day.",
     "emailLabel": "Email",
     "phoneLabel": "Phone",
     "hoursLabel": "Hours",
@@ -129,15 +108,12 @@
     "orgPh": "General Hospital",
     "emailLbl": "Email Address",
     "emailPh": "you@hospital.org",
-    "categoryLbl": "Equipment Interest",
+    "categoryLbl": "Product Interest",
     "categoryPh": "Select category…",
-    "opt1": "Diagnostic Imaging",
-    "opt2": "Surgical Systems",
-    "opt3": "Patient Monitoring",
-    "opt4": "Laboratory Equipment",
-    "opt5": "Rehabilitation",
-    "opt6": "Emergency & ICU",
-    "opt7": "Other / Multiple Categories",
+    "opt1": "Cabinets & Drawers",
+    "opt2": "Trolleys & Accessories",
+    "opt3": "Accessories",
+    "opt4": "Other / Multiple Categories",
     "messageLbl": "Message",
     "messagePh": "Describe your requirements…",
     "submit": "Send Enquiry",
@@ -147,20 +123,19 @@
     "required": "Please fill in all required fields."
   },
   "footer": {
-    "tagline": "ISO 13485 certified medical equipment trade & distribution.",
+    "tagline": "ISO 13485 certified stainless steel medical furniture — trade & distribution.",
     "productTitle": "Products",
-    "productImaging": "Diagnostic Imaging",
-    "productSurgical": "Surgical Systems",
-    "productMonitoring": "Patient Monitoring",
-    "productLab": "Laboratory",
+    "productCabinets": "Cabinets & Drawers",
+    "productTrolleys": "Trolleys & Accessories",
+    "productAccessories": "Accessories",
     "companyTitle": "Company",
     "companyAbout": "About Us",
-    "companyWhyUs": "Why Mediforma",
+    "companyWhyUs": "Why MediForma",
     "companyContact": "Contact",
     "legalTitle": "Legal",
     "legalPrivacy": "Privacy Policy",
     "legalTerms": "Terms of Sale",
     "legalCompliance": "Compliance",
-    "copyright": "© 2026 Mediforma. All rights reserved."
+    "copyright": "© 2026 MediForma. All rights reserved."
   }
 }
